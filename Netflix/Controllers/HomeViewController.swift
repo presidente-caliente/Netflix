@@ -12,7 +12,7 @@ class HomeViewController: UIViewController {
     private let homeFeedTable: UITableView = {
         
         // instantiate single column row
-        let table = UITableView()
+        let table = UITableView(frame: .zero, style: .grouped)
         
         // register function for use
         table.register(CollectionViewTableViewCell.self, forCellReuseIdentifier: CollectionViewTableViewCell.identifier)
@@ -48,9 +48,13 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 20
+    }
+    
     // define number of rows
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+        return 1
     }
     
     // define cells
