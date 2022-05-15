@@ -7,11 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        // define the views background color
+        view.backgroundColor = .systemYellow
+        
     }
 
 

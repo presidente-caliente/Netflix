@@ -23,7 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         
         // assign new viewcontroller instance to window controller
-        window?.rootViewController = ViewController()
+        window?.rootViewController = MainTabBarViewController()
         
         window?.makeKeyAndVisible()
         
