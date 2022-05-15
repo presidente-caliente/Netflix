@@ -12,6 +12,10 @@
 		E95E31252830D57A00D4FB33 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E31242830D57A00D4FB33 /* MainTabBarViewController.swift */; };
 		E95E312A2830D57C00D4FB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95E31292830D57C00D4FB33 /* Assets.xcassets */; };
 		E95E312D2830D57C00D4FB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95E312B2830D57C00D4FB33 /* LaunchScreen.storyboard */; };
+		E95E31372830E61E00D4FB33 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E31362830E61E00D4FB33 /* HomeViewController.swift */; };
+		E95E31392830E66800D4FB33 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E31382830E66800D4FB33 /* UpcomingViewController.swift */; };
+		E95E313B2830E6A600D4FB33 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E313A2830E6A600D4FB33 /* SearchViewController.swift */; };
+		E95E313D2830E6EA00D4FB33 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95E313C2830E6EA00D4FB33 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E95E31292830D57C00D4FB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95E312C2830D57C00D4FB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95E312E2830D57C00D4FB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95E31362830E61E00D4FB33 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E95E31382830E66800D4FB33 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		E95E313A2830E6A600D4FB33 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E95E313C2830E6EA00D4FB33 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		E95E311F2830D57A00D4FB33 /* Netflix */ = {
 			isa = PBXGroup;
 			children = (
+				E95E31352830E5D900D4FB33 /* Controllers */,
 				E95E31202830D57A00D4FB33 /* AppDelegate.swift */,
 				E95E31222830D57A00D4FB33 /* SceneDelegate.swift */,
 				E95E31242830D57A00D4FB33 /* MainTabBarViewController.swift */,
@@ -62,6 +71,17 @@
 				E95E312E2830D57C00D4FB33 /* Info.plist */,
 			);
 			path = Netflix;
+			sourceTree = "<group>";
+		};
+		E95E31352830E5D900D4FB33 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E95E31362830E61E00D4FB33 /* HomeViewController.swift */,
+				E95E31382830E66800D4FB33 /* UpcomingViewController.swift */,
+				E95E313A2830E6A600D4FB33 /* SearchViewController.swift */,
+				E95E313C2830E6EA00D4FB33 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95E313B2830E6A600D4FB33 /* SearchViewController.swift in Sources */,
 				E95E31252830D57A00D4FB33 /* MainTabBarViewController.swift in Sources */,
+				E95E313D2830E6EA00D4FB33 /* DownloadsViewController.swift in Sources */,
 				E95E31212830D57A00D4FB33 /* AppDelegate.swift in Sources */,
 				E95E31232830D57A00D4FB33 /* SceneDelegate.swift in Sources */,
+				E95E31392830E66800D4FB33 /* UpcomingViewController.swift in Sources */,
+				E95E31372830E61E00D4FB33 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
