@@ -34,6 +34,11 @@ class HomeViewController: UIViewController {
         
         // define self as data source
         homeFeedTable.dataSource = self
+        
+        // instantiate the HeroHeaderUIView object
+        let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
+        
+        homeFeedTable.tableHeaderView = headerView
     }
     
     
